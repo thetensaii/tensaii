@@ -10,6 +10,9 @@ const Home: NextPage = () => {
         <meta name="description" content="Tensaii website" />
         <link rel="icon" href="/t-favicon.ico" />
         <meta property="og:title" content="Tensaii - Le site web" />
+        <meta property='og:image' content='https://cdn.discordapp.com/attachments/1032405329616568340/1032427068295741450/unknown.png' />
+        <meta property="og:image:width" content="500" />
+        <meta property="og:image:height" content="400" />
         <meta
           property="og:description"
           content="Le site du génie le plus humble du monde !"
