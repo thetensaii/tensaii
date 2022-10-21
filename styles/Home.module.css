@@ -5,3 +5,20 @@
   gap: 2rem;
   margin-top: 2rem;
 }
+
+.title{
+  text-align: center;
+}
+
+.handshakeImg{
+  height: 70vh;
+  min-height: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .handshakeImg{
+    width: 80vw;
+    height: auto;
+    min-height: auto;
+  }
+}
