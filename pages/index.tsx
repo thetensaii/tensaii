@@ -19,11 +19,11 @@ const Home: NextPage = () => {
         />
       </Head>
       <main className={styles.container}>
-        <h1>{"Le Site du génie le plus humble du monde"}</h1>
+        <h1 className={styles.title}>{"Le Site du génie le plus humble du monde"}</h1>
         <img 
+          className={styles.handshakeImg}
           src={"/images/handshake.jpg"}
           alt="Slam Dunk Handshake"
-          height={700}
         />
         <p>
           <b><a href='https://github.com/thetensaii'>Mon Github</a></b>
